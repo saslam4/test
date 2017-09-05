@@ -1,14 +1,19 @@
 {
-  "name": "npmplaybook",
+  "name": "my-test-package",
   "version": "1.0.0",
-  "description": "This is my first package.json",
+  "description": "This is a test package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Waqas Aslam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saslam4/test.git"
+  },
+  "author": "Syed W. Aslam",
   "license": "ISC",
-  "dependencies": {
-    "npm": "^5.4.0"
-  }
+  "bugs": {
+    "url": "https://github.com/saslam4/test/issues"
+  },
+  "homepage": "https://github.com/saslam4/test#readme"
 }
