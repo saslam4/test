@@ -1,1 +1,3 @@
-console.log('Testing');
+module.exports = function() {
+	console.log('Testing');
+}
